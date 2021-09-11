@@ -1,0 +1,689 @@
+#backround #scroll {
+  width: 100%;
+  height: 470px;
+  /* background-color: brown; */
+}
+#backround #scroll .left {
+  font-size: 55px;
+  position: absolute;
+  top: 800px;
+  left: 120px;
+}
+#backround #scroll .right {
+  font-size: 55px;
+  position: absolute;
+  top: 800px;
+  right: 120px;
+}
+#backround #scroll h2 {
+  color: black;
+  position: absolute;
+  left: 600px;
+  top: 580px;
+  font-size: 33px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#scroll #slider {
+  display: flex;
+  width: 900px;
+  height: auto;
+  margin-left: 235px;
+  position: absolute;
+  top: 650px;
+  /* background-color: chartreuse; */
+  /* overflow: hidden; */
+}
+.owl-carousel owl-theme .item {
+}
+
+#scroll #card1 {
+  width: 260px;
+  height: 325px;
+  background-color: #dadada;
+  margin-right: 40px;
+  /* position: absolute; */
+  position: relative;
+}
+
+#scroll #slider #card1 #circle1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1613564834361-9436948817d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card1 h1 {
+  font-size: 30px;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card1 h3 {
+  position: absolute;
+  top: 230px;
+  left: 92px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card1 button {
+  padding: 7px 13px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 270px;
+  left: 58px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card1 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card1 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+
+#scroll #slider #card2 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card2 #circle2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1488900128323-21503983a07e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fHN3ZWV0JTIwZGlzaGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card2 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card2 h3 {
+  position: absolute;
+  top: 230px;
+  left: 120px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card2 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 73px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card2 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card2 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card3 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card3 #circle3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1551844547-043f512dc4d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fGZvb2QlMjBpbWFnZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card3 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card3 h3 {
+  position: absolute;
+  top: 230px;
+  left: 115px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card3 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card3 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card3 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card4 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card4 #circle4 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1550547660-d9450f859349?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMGltYWdlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card4 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 92px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card4 h3 {
+  position: absolute;
+  top: 230px;
+  left: 109px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card4 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card4 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card4 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card5 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card5 #circle5 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1551326844-4df70f78d0e9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card5 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 105px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card5 h3 {
+  position: absolute;
+  top: 230px;
+  left: 119px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card5 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card5 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card5 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card6 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card6 #circle6 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1553696836-03510978653f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZCUyMGltYWdlJTIwZGlzaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card6 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 75px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card6 h3 {
+  position: absolute;
+  top: 230px;
+  left: 109px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card6 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card6 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card6 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card7 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card7 #circle7 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGZvb2QlMjBkaXNoJTIwaW1hZ2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card7 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 94px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card7 h3 {
+  position: absolute;
+  top: 230px;
+  left: 117px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card7 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 75px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card7 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card7 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card8 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card8 #circle8 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ3fHxmb29kJTIwZGlzaCUyMGltYWdlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card8 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 81px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card8 h3 {
+  position: absolute;
+  top: 230px;
+  left: 110px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card8 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card8 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card8 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card9 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card9 #circle9 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1628840042765-356cda07504e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fHBpenphJTIwZGlzaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card9 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card9 h3 {
+  position: absolute;
+  top: 230px;
+  left: 110px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card9 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card9 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card9 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card10 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card10 #circle10 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1481391032119-d89fee407e44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGZvb2QlMjBpbWFnZSUyMGZpc2glMjBkaXNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card10 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 94px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card10 h3 {
+  position: absolute;
+  top: 230px;
+  left: 120px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card10 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card10 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card10 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card11 {
+  width: 250px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card11 #circle11 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1557142046-c704a3adf364?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card11 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card11 h3 {
+  position: absolute;
+  top: 230px;
+  left: 120px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card11 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card11 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card11 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}
+#scroll #slider #card12 {
+  width: 233px;
+  height: 325px;
+  background-color: #dadada;
+  margin-left: 15px;
+}
+#scroll #slider #card12 #circle12 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 43px;
+  margin-top: 25px;
+  background-image: url(https://images.unsplash.com/photo-1623595119708-26b1f7300075?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+#scroll #slider .item #card12 h1 {
+  font-size: 27px;
+  position: absolute;
+  top: 180px;
+  left: 98px;
+  color: black;
+  font-family: "Knewave", cursive;
+}
+#scroll #slider .item #card12 h3 {
+  position: absolute;
+  top: 230px;
+  left: 110px;
+  font-size: 16px;
+  color: brown;
+}
+#scroll #slider .item #card12 button {
+  width: 127px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 267px;
+  left: 72px;
+  font-family: "Mitr", sans-serif;
+  animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#scroll #slider .item #card12 button i {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#scroll #slider .item #card12 button:hover {
+  background-color: #8d8989df;
+  color: white;
+}

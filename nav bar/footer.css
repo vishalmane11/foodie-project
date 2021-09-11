@@ -1,0 +1,189 @@
+#footer {
+  width: 100%;
+  height: 550px;
+  background-color: rgb(42, 44, 47);
+}
+#serve {
+  width: 1200px;
+  height: 530px;
+  /* background-color: coral; */
+  margin-left: 70px;
+  display: flex;
+}
+#serve #about {
+  width: 300px;
+  height: 500px;
+  /* background-color: rgb(255, 255, 255); */
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#serve #about h2 {
+  margin-top: 40px;
+  margin-left: 90px;
+  color: rgb(255, 255, 255);
+}
+#serve #about p {
+  color: white;
+}
+#serve #about button {
+  padding: 7px 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+#serve #about #line {
+  width: 170px;
+  height: 2px;
+  background-color: yellow;
+  margin-left: 61px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  color: yellow;
+}
+#serve #quick {
+  width: 200px;
+  height: 500px;
+  /* background-color: rgb(250, 245, 246); */
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#serve #quick h2 {
+  margin-top: 40px;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+}
+#serve #quick #line2 {
+  width: 170px;
+  height: 2px;
+  background-color: yellow;
+  margin-top: 8px;
+  margin-left: 15px;
+  color: yellow;
+}
+#serve #quick ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+}
+#serve #quick ul li {
+  margin-top: 17px;
+  margin-left: 63px;
+  color: white;
+}
+#serve #follow {
+  width: 220px;
+  height: 500px;
+  /* background-color: rgb(255, 254, 254); */
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#serve #follow h2 {
+  margin-top: 40px;
+  margin-left: 50px;
+  color: white;
+}
+#serve #follow #line3 {
+  width: 185px;
+  height: 2px;
+  background-color: yellow;
+  margin-top: 8px;
+  margin-left: 15px;
+  color: yellow;
+}
+#serve #follow a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: white;
+}
+#serve #follow a i {
+  margin-right: 14px;
+  color: white;
+}
+#serve #insta {
+  width: 320px;
+  height: 500px;
+  /* background-color: rgb(250, 249, 249); */
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#serve #insta h2 {
+  margin-top: 40px;
+  margin-left: 90px;
+  color: white;
+}
+#serve #insta #line4 {
+  width: 198px;
+  height: 2px;
+  background-color: yellow;
+  margin-top: 8px;
+  margin-left: 53px;
+}
+#serve #insta #fullimage {
+  width: 320px;
+  height: 300px;
+  /* background-color: blanchedalmond; */
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#serve #insta #fullimage #image1 {
+  width: 95px;
+  height: 95px;
+  background-color: rgb(180, 114, 34);
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+#serve #insta #fullimage #image2 {
+  width: 95px;
+  height: 95px;
+  background-color: rgb(180, 114, 34);
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+}
+#serve #insta #fullimage #image3 {
+  width: 95px;
+  height: 95px;
+  background-color: rgb(180, 114, 34);
+
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1541544741938-0af808871cc0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+#serve #insta #fullimage #image4 {
+  width: 95px;
+  height: 95px;
+  background-color: rgb(180, 114, 34);
+  margin-top: -60px;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+#serve #insta #fullimage #image5 {
+  width: 95px;
+  height: 95px;
+  background-color: rgb(180, 114, 34);
+  margin-top: -60px;
+  margin-left: 10px;
+  background-image: url(https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+}
+#serve #insta #fullimage #image6 {
+  width: 95px;
+  height: 95px;
+  background-color: rgb(180, 114, 34);
+  margin-top: -60px;
+  margin-left: 10px;
+  background-image: url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+}

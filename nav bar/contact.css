@@ -1,0 +1,133 @@
+#contact {
+  width: 100%;
+  height: 500px;
+  background-color: #c7c6c6;
+  position: relative;
+}
+#contact h1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  font-family: "Eagle Lake", cursive;
+}
+#contact #map {
+  width: 690px;
+  height: 500px;
+  /* background-color: brown; */
+  background-image: url(./new.png);
+  margin-left: 657px;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+}
+#contact #callcentre {
+  width: 500px;
+  height: 300px;
+  /* background-color: cadetblue; */
+  position: absolute;
+  top: 160px;
+  left: 80px;
+}
+#contact #callcentre #call {
+  width: 50px;
+  height: 50px;
+  /* background-color: chartreuse; */
+  transform-origin: (100% 100%);
+  transform: rotate(587deg);
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border: 2px solid black;
+}
+#contact #callcentre #call i {
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+}
+#contact #callcentre #mail {
+  width: 50px;
+  height: 50px;
+  /* background-color: chartreuse; */
+  transform-origin: (100% 100%);
+  transform: rotate(587deg);
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 2px solid black;
+}
+#contact #callcentre #time {
+  width: 50px;
+  height: 50px;
+  /* background-color: chartreuse; */
+  transform-origin: (100% 100%);
+  transform: rotate(587deg);
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 2px solid black;
+}
+#contact #callcentre .calltag {
+  position: absolute;
+  top: 66px;
+  left: 45px;
+  font-size: 20px;
+  color: yellow;
+}
+#contact #callcentre .mailtag {
+  position: absolute;
+  top: 147px;
+  left: 45px;
+  font-size: 20px;
+  color: yellow;
+}
+#contact #callcentre .timetag {
+  position: absolute;
+  top: 225px;
+  left: 45px;
+  font-size: 20px;
+  color: yellow;
+}
+#contact #callcentre .ctag {
+  position: absolute;
+  top: 60px;
+  left: 95px;
+  margin-bottom: 10px;
+}
+#contact #callcentre .etag {
+  position: absolute;
+  top: 140px;
+  left: 95px;
+  margin-bottom: 10px;
+}
+#contact #callcentre .wtag {
+  position: absolute;
+  top: 220px;
+  left: 95px;
+}
+#contact #map #say {
+  width: 160px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.671);
+  margin-left: 50px;
+  position: absolute;
+  top: 40px;
+  border: 2px solid #dadada;
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.561);
+  border-radius: 8px;
+}
+#contact #map #black {
+  width: 690px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+#contact #map #say h4 {
+  font-family: sans-serif;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-bottom: -1px;
+  font-family: "Kalam", cursive;
+  font-weight: 730;
+}
+#contact #map #say i {
+  margin-left: 25px;
+}

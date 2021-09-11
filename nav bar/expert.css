@@ -1,0 +1,108 @@
+#expert {
+  width: 100%;
+  height: 530px;
+  background-color: white;
+  position: relative;
+}
+
+#expert h1 {
+  position: absolute;
+  left: 520px;
+  top: 30px;
+}
+#expert p {
+  position: absolute;
+  left: 270px;
+  top: 90px;
+}
+#expert #cardbaap {
+  width: 1100px;
+  height: 350px;
+  /* background-color: coral; */
+  position: absolute;
+  left: 200px;
+  top: 130px;
+  display: flex;
+}
+#expert #cardbaap #card1 {
+  width: 310px;
+  height: 350px;
+  background-color: white;
+  margin-right: 20px;
+  background-image: url(https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlZiUyMGtpdGNoZW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+}
+#expert #cardbaap #card1 .black {
+  width: 310;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 290px;
+  position: relative;
+}
+#expert #cardbaap #card1 .black h2 {
+  color: white;
+  margin-left: 80px;
+  position: absolute;
+  bottom: 25px;
+}
+#expert #cardbaap #card1 .black h6 {
+  color: white;
+  margin-left: 120px;
+  position: absolute;
+  bottom: 11px;
+}
+#expert #cardbaap #card2 {
+  width: 310px;
+  height: 350px;
+  background-color: white;
+  margin-right: 20px;
+  background-image: url(https://images.unsplash.com/photo-1574966740637-12c84035a4f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoZWYlMjBraXRjaGVufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+}
+#expert #cardbaap #card2 .black {
+  width: 310;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 290px;
+}
+#expert #cardbaap #card2 .black h2 {
+  color: white;
+  margin-left: 90px;
+  position: absolute;
+  bottom: 21px;
+}
+#expert #cardbaap #card2 .black h6 {
+  position: absolute;
+  top: 330px;
+  color: white;
+  margin-left: 120px;
+}
+#expert #cardbaap #card3 {
+  width: 310px;
+  height: 350px;
+  background-color: white;
+  margin-right: 20px;
+  background-image: url(https://images.unsplash.com/photo-1581299894007-aaa50297cf16?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2hlZiUyMGtpdGNoZW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+}
+#expert #cardbaap #card3 .black {
+  width: 310;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 290px;
+}
+#expert #cardbaap #card3 .black h2 {
+  color: white;
+  margin-left: 90px;
+  position: absolute;
+  bottom: 21px;
+}
+#expert #cardbaap #card3 .black h6 {
+  position: absolute;
+  top: 330px;
+  color: white;
+  margin-left: 120px;
+}
